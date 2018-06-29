@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [29/Jun/2018:11:55:35 +0530] "GET / HTTP/1.1" 200 439 http-bio-9090-exec-1 535
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:55:42 +0530] "POST /loginHandler HTTP/1.1" 302 - http-bio-9090-exec-3 3
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:55:42 +0530] "GET /app HTTP/1.1" 404 957 http-bio-9090-exec-4 1
+0:0:0:0:0:0:0:1 - - [29/Jun/2018:11:57:49 +0530] "GET / HTTP/1.1" 200 439 http-bio-9090-exec-1 51
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:57:58 +0530] "POST /loginHandler HTTP/1.1" 302 - http-bio-9090-exec-4 4
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:57:58 +0530] "GET /app HTTP/1.1" 404 957 http-bio-9090-exec-5 1
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:58:01 +0530] "GET /app HTTP/1.1" 404 957 http-bio-9090-exec-6 1
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:58:05 +0530] "GET / HTTP/1.1" 200 439 http-bio-9090-exec-8 1
+0:0:0:0:0:0:0:1 - Jane [29/Jun/2018:11:58:16 +0530] "POST /loginHandler HTTP/1.1" 200 494 http-bio-9090-exec-1 4
+0:0:0:0:0:0:0:1 - - [29/Jun/2018:11:58:48 +0530] "GET / HTTP/1.1" 200 439 http-bio-9090-exec-1 63
+0:0:0:0:0:0:0:1 - admin [29/Jun/2018:11:58:59 +0530] "POST /loginHandler HTTP/1.1" 302 - http-bio-9090-exec-4 3
+0:0:0:0:0:0:0:1 - admin [29/Jun/2018:11:58:59 +0530] "GET /app1 HTTP/1.1" 200 121 http-bio-9090-exec-5 10
+0:0:0:0:0:0:0:1 - - [29/Jun/2018:11:59:04 +0530] "GET /logout HTTP/1.1" 302 - http-bio-9090-exec-6 1
+0:0:0:0:0:0:0:1 - - [29/Jun/2018:11:59:04 +0530] "GET /app HTTP/1.1" 404 957 http-bio-9090-exec-7 1
+0:0:0:0:0:0:0:1 - - [29/Jun/2018:12:03:23 +0530] "GET / HTTP/1.1" 200 439 http-bio-9090-exec-9 2

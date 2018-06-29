@@ -1,0 +1,5 @@
+com\kgfsl\LogoutServlet.class
+com\kgfsl\AdminServlet.class
+com\kgfsl\LoginHandlerServlet.class
+com\kgfsl\MySecuredServlet.class
+com\kgfsl\Adminpage.class
